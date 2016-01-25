@@ -6,14 +6,12 @@
     padding: 5px;
     position: fixed;
     top: 55px;
-    border-color: black;
-    border-bottom-style: solid;
-    border-width: 5px;
+    border: solid black 5px;
 }
 
 #scrollSquare{
-    top: 45;
-    height: 3000;
+    top: 45px;
+    height: 3000px;
 }
 
 body{
@@ -32,11 +30,24 @@ h1 {
 
 #menu {
     position: fixed;
-    background-color: black;
-	border-color: black;
-    border-bottom-style: solid;
-    border-width: 1px;
-    padding: 5px;
+    background-color: #484444;
+    padding: 1px;
+    width: 100%;
 }
 
+.menuBtn {
+    font-family: cursive;
+    font-size: 15px;
+    color: floralwhite;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px;
+    padding: 2px;
+    margin: 6px 20px 10px;
+    letter-spacing: 4px;
+}
 
+.menuBtn:focus {
+    outline: none;
+    border-bottom: #484444;
+}

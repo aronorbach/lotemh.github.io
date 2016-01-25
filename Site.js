@@ -25,15 +25,4 @@ window.onload = function () {
             pages.firstChild.remove();
     }
 
-    /*  var Menu = React.createClass({
-     render: function(){
-     return React.DOM.div({id: "menu"},
-
-     );
-     }
-     });
-
-     React.renderComponent(Menu(), document.body);
-     */
-
 };
