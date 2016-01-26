@@ -18,6 +18,8 @@
 
 body{
     margin: 0;
+    overflow-x: hidden;
+    -webkit-user-select: none;
 }
 
 h1 {
@@ -30,12 +32,12 @@ h1 {
     visibility:hidden;
 }
 
-#menu {
-    position: fixed;
+.menu {
     background-color: #484444;
     padding: 1px;
-    width: 100%;
     text-align: center;
+    position: fixed;
+    width: 100%;
 }
 
 .menuBtn {

@@ -8,8 +8,7 @@ window.onload = function () {
     document.getElementById("circlesBtn").runPage = (new CirclesManager).start;
 
     hideAllDivs();
-    var menu = document.getElementById('menu');
-    menu.style.width = window.screen.width;
+    var menu = document.querySelector('.menu');
     var buttons = menu.getElementsByTagName('button');
     for (var i = 0; i < buttons.length; i++) {
         buttons[i].onclick = function (event) {
